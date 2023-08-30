@@ -1,0 +1,22 @@
+#  Local .terraform directories
+**/.terraform/*
+
+# Local terraform images
+backend.tf
+.terraform.lock.hcl
+
+# .tfstate images
+*.tfstate
+*.tfstate.*
+
+# .tfvars images
+*.tfvars
+
+# plan images
+plan.out
+*.zip
+
+.idea
+.iml
+.DS_Store
+/terraform/files/email-visualizer/*
